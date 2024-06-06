@@ -1,0 +1,62 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/* SECTION 1 OF WEBSITE */
+
+.header, .footer {
+    background-color: #1F2937;
+    color: #f9faf8;
+}
+
+.header {
+    font-size: 48px;
+
+    display: flex;
+    
+}
+
+.links-upper {
+    font-size: 18px;
+
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.sign-up-title {
+    font-weight: bolder;
+}
+
+/* SECTION 2 OF WEBSITE */
+
+.middle-section {
+    display: flex;
+    justify-content: center;
+}
+
+/* SECTION 3 OF WEBSITE */
+
+/* SECTION 4 OF WEBSITE */
+
+.footer {
+
+}
+
+/* MISC WEBSITE ITEMS */
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    align-content: end;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+p {
+    flex-wrap: wrap;
+}
